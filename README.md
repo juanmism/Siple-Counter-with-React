@@ -1,41 +1,27 @@
-# Hello World with React boilerplate
-<p>
-  <a href="https://gitpod.io#https://github.com/4GeeksAcademy/react-hello.git"><img src="https://raw.githubusercontent.com/4GeeksAcademy/react-hello/master/open-in-gitpod.svg?sanitize=true" />
-  </a>
-</p>
+# ![4Geeks Logo](http://assets.breatheco.de/apis/img/images.php?blob&random&cat=icon&tags=4geeks,16) Simple Counter with React
 
-This template is similar to create-react-app but it's meant for 4Geeks Academy students.
+![screenshot](https://raw.githubusercontent.com/m4n50n/simple_counter_with_react/main/screenshot_preview.png)
 
-##### Download the boilerplate using git
 
-```
-$ git clone https://github.com/4GeeksAcademy/react-hello.git
-$ cd react-hello
-```
+✏ *Creating a seconds-counter component that displays how many seconds have passed since the website finished loading. Inspired in ***./preview.gif****.
 
-##### and install the npm package:
-```
-$ npm install
-```
+## Goals 👽 
+- The user can ***pause***, ***resume***, ***restart*** or ***change direction*** the counter.
+- The user can ***create an alert*** to be notified when the counter reaches the specified seconds.
 
-## Start coding!
+## Preview 🎬
+* You can open this repository in **Gitpod**.
+* Start the webpack server with live reload running the next command: `$ npm run start`
+* If you can't start the server, run the following command: `$ npm install`
 
-For Windows, Mac, Linux or Gitpod, start the webpack server with live reload:
-- `$ npm run start`
+## Sources 📌
 
-You can update the `styles/index.css` or `js/index.js` depending on your needs.
-Add more files into your, `./src/js/components` or styles folder as you need them.
+<https://learn.breatheco.de/course/full-stack.v4/14/p/simple-counter-react>
 
-## Publish your website!
+<https://github.com/breatheco-de/exercise-simple-counter-react>
 
-This boilerplate is 100% compatible with the free [github pages](https://pages.github.com/) and [vercel](https://vercel.com/) hosting.
+<https://www.youtube.com/watch?v=CMMNdoTJMJM>
 
-It takes just 2 minutes to deploy, [click here to start the process](https://github.com/4GeeksAcademy/react-hello/blob/master/docs/DEPLOY.md).
+<https://fontawesome.com/v5.15/how-to-use/on-the-web/using-with/react>
 
-## Other features
-
-- Automatic Code Formatting: Use of [Prettier](https://prettier.io/) for automatic code indentation and formatting.
-- Error reporting: Use of [eslint](https://eslint.org/) for better error reporting.
-- Hot Deploy: Use of [Webpack Development Server](https://webpack.js.org/configuration/dev-server/) for hot deploy and live reload.
-- One-command publish of the code to github pages with `npm run deploy:github`.
-- Babel 7 (really fast).
+💻 _Juan Miguel Sáenz Martel_ (<https://github.com/juanmism>)
